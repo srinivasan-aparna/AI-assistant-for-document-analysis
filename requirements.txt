@@ -1,0 +1,6 @@
+streamlit
+PyMuPDF==1.18.19
+faiss-cpu==1.7.1
+numpy
+pickle5  # Python version < 3.8
+langchain
