@@ -4,18 +4,18 @@ The AI Assistant designed to streamline the analysis of large-scale engineering 
 This system leverages advanced LLM pipelines, embedding-based retrieval, and efficient vector search to deliver context-aware, explainable responses.
 
 # 🚀 Key Contributions
-📂 PDF Ingestion & Processing
-* Extracts and processes text from uploaded technical documents.
-🔍 Semantic Search with FAISS
-* Uses embedding-based similarity search to retrieve the most relevant document sections.
-🧩 Retrieval-Augmented Generation (RAG)
-* Combines retrieved context with LLM reasoning for accurate, grounded responses.
-🧠 Context-Aware Question Answering
-* Enables multi-step reasoning over engineering specifications.
-📊 Explainability & Traceability
-* Displays source passages used to generate answers.
-⚡ Session-Based Isolation
-* Ensures independent processing using unique session IDs.
+* 📂 PDF Ingestion & Processing:
+Extracts and processes text from uploaded technical documents.
+* 🔍 Semantic Search with FAISS:
+Uses embedding-based similarity search to retrieve the most relevant document sections.
+* 🧩 Retrieval-Augmented Generation (RAG):
+ Combines retrieved context with LLM reasoning for accurate, grounded responses.
+* 🧠 Context-Aware Question Answering:
+ Enables multi-step reasoning over engineering specifications.
+* 📊 Explainability & Traceability:
+ Displays source passages used to generate answers.
+* ⚡ Session-Based Isolation:
+ Ensures independent processing using unique session IDs.
 
 # 🏗️ System Architecture
 1. Document Processing Pipeline
