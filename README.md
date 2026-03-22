@@ -5,40 +5,40 @@ This system leverages advanced LLM pipelines, embedding-based retrieval, and eff
 
 # 🚀 Key Contributions
 📂 PDF Ingestion & Processing
-Extracts and processes text from uploaded technical documents.
+* Extracts and processes text from uploaded technical documents.
 🔍 Semantic Search with FAISS
-Uses embedding-based similarity search to retrieve the most relevant document sections.
+* Uses embedding-based similarity search to retrieve the most relevant document sections.
 🧩 Retrieval-Augmented Generation (RAG)
-Combines retrieved context with LLM reasoning for accurate, grounded responses.
+* Combines retrieved context with LLM reasoning for accurate, grounded responses.
 🧠 Context-Aware Question Answering
-Enables multi-step reasoning over engineering specifications.
+* Enables multi-step reasoning over engineering specifications.
 📊 Explainability & Traceability
-Displays source passages used to generate answers.
+* Displays source passages used to generate answers.
 ⚡ Session-Based Isolation
-Ensures independent processing using unique session IDs.
+* Ensures independent processing using unique session IDs.
 
 # 🏗️ System Architecture
 1. Document Processing Pipeline
-*PDF upload via Streamlit UI
-*Text extraction using PyPDF2
-*Chunking with overlap for contextual continuity
+* PDF upload via Streamlit UI
+* Text extraction using PyPDF2
+* Chunking with overlap for contextual continuity
 2. Embedding Layer
 *Embeddings generated via DeepSeek API
-*Converts text chunks into dense vector representations
+* Converts text chunks into dense vector representations
 3. Vector Indexing
-*FAISS (IndexFlatL2) used for efficient similarity search
-*Stores embeddings for fast retrieval
+* FAISS (IndexFlatL2) used for efficient similarity search
+* Stores embeddings for fast retrieval
 4. Retrieval Layer
-*Top-K relevant chunks retrieved based on query similarity
+* Top-K relevant chunks retrieved based on query similarity
 5. Generation Layer
 *DeepSeek Chat API generates answers using:
-*User query
-*Retrieved contextual passages
+* User query
+* Retrieved contextual passages
 
 # 🖥️ Tech Stack
 * Frontend: Streamlit
-*LLM & Embeddings: DeepSeek API
-*Vector Database: FAISS
-*Backend: Python
-*Document Processing: PyPDF2
-*Data Handling: NumPy, Pickle
+* LLM & Embeddings: DeepSeek API
+* Vector Database: FAISS
+* Backend: Python
+* Document Processing: PyPDF2
+* Data Handling: NumPy, Pickle
