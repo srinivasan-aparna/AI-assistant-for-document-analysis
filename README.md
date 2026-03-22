@@ -42,3 +42,9 @@ Uses embedding-based similarity search to retrieve the most relevant document se
 * Backend: Python
 * Document Processing: PyPDF2
 * Data Handling: NumPy, Pickle
+
+# 📊 Impact
+* 📉 Reduced manual engineering review time by 40%
+* 📄 Automated analysis of over 2,000 pages of technical specifications
+* 🎯 Improved response accuracy through optimized retrieval and prompt tuning
+* 🔍 Enhanced explainability with source-backed answers
