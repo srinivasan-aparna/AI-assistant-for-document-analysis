@@ -19,31 +19,26 @@ Ensures independent processing using unique session IDs.
 
 # 🏗️ System Architecture
 1. Document Processing Pipeline
-PDF upload via Streamlit UI
-Text extraction using PyPDF2
-Chunking with overlap for contextual continuity
+*PDF upload via Streamlit UI
+*Text extraction using PyPDF2
+*Chunking with overlap for contextual continuity
 2. Embedding Layer
-Embeddings generated via DeepSeek API
-Converts text chunks into dense vector representations
+*Embeddings generated via DeepSeek API
+*Converts text chunks into dense vector representations
 3. Vector Indexing
-FAISS (IndexFlatL2) used for efficient similarity search
-Stores embeddings for fast retrieval
+*FAISS (IndexFlatL2) used for efficient similarity search
+*Stores embeddings for fast retrieval
 4. Retrieval Layer
-Top-K relevant chunks retrieved based on query similarity
+*Top-K relevant chunks retrieved based on query similarity
 5. Generation Layer
-DeepSeek Chat API generates answers using:
-User query
-Retrieved contextual passages
+*DeepSeek Chat API generates answers using:
+*User query
+*Retrieved contextual passages
 
 # 🖥️ Tech Stack
 * Frontend: Streamlit
-
-LLM & Embeddings: DeepSeek API
-
-Vector Database: FAISS
-
-Backend: Python
-
-Document Processing: PyPDF2
-
-Data Handling: NumPy, Pickle
+*LLM & Embeddings: DeepSeek API
+*Vector Database: FAISS
+*Backend: Python
+*Document Processing: PyPDF2
+*Data Handling: NumPy, Pickle
